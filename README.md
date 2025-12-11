@@ -9,4 +9,3 @@ Zespoł:
 - Armen Adamyan
 - Miłosz Barański
 - Miłosz Thal
-git 
