@@ -5,7 +5,6 @@ Projekt szkolny.
 ---
 
 Zespoł:
-
 - Kacper Zgliński
 - Armen Adamyan
 - Miłosz Barański
