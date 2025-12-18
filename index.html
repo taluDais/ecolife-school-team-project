@@ -1,12 +1,74 @@
-<!DOCTYPE html>
+g<!DOCTYPE html>
 <html lang="pl">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>EcoLife 🍃</title>
-   <link rel="stylesheet" href="styles/general.css">
-</head>
-<body>
-                              
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoLife 🍃</title>
+    <link rel="stylesheet" href="styles/general.css" />
+  </head>
+  <body>
+    <header>
+      <h1>EcoLife</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#galeria">galeria</a></li>
+          <li><a href="#kontakt">kontakt</a></li>
+          <li><a href="#eko-porady">eko-porady</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <article class="ekologia">
+          <h2>Ekologia</h2>
+          <p>
+            Ekologia to nie tylko nauka — to przypomnienie, że jesteśmy częścią
+            większej całości. Każde drzewo, każda kropla wody i każde zwierzę
+            współtworzą świat, który pozwala nam żyć, oddychać i czuć się
+            bezpiecznie. Gdy dbamy o przyrodę, dbamy także o siebie i o tych,
+            którzy przyjdą po nas. To proste gesty, takie jak oszczędzanie wody,
+            segregowanie odpadów czy wybór natury zamiast plastiku, stają się
+            cichym „dziękuję” dla Ziemi. Ekologia przypomina nam, że mamy tylko
+            jeden dom — i warto troszczyć się o niego z miłością.
+          </p>
+        </article>
+      </section>
+
+      <section class="galeria">
+        <h2>Galeria</h2>
+      </section>
+
+      <!-- Każda porada rozwija się po kliknięciu (JS → toggle class) -->
+      <aricle class="eko-porady">
+        <h2>Eko Porady</h2>
+        <p>
+          Zarządzanie odpadami: Używaj wielorazowych toreb na zakupy i bidonów
+          na wodę zamiast jednorazowych butelek. Odpowiednie zmywanie: Używaj
+          trybu eco w zmywarce. Zarządzanie energią: Wyłącz światło, gdy
+          opuszczasz pomieszczenie, korzystaj z energooszczędnych żarówek.
+          Transport: Przesiadaj na rower zamiast samochodu lub korzystaj z
+          transportu publicznego. Zakupy: Kupuj bilety w wersji elektronicznej,
+          unikaj jednorazowych opakowań.
+
+        </p>
+      </article>
+
+    </main>
+
+    <footer id="kontakt">
+      <h1>Kontakt</h1>
+      <h2>Napisz do nas!</h2>
+      <form action="Kontakt">
+      <input id="imie" type="text" name="Twoje imię"><br>
+      <input id="email" type="text" name="Adres e-mail"><br>
+      <input id="wiadomosc" type="text" name="Twoja wiadomość"><br>
+      <input id="przycisk" type="submit" value="Wyślij"><br>
+      </form>
+      
+    </footer>
+    <script src="/scripts/general.js"></script>
+  </body>
 </html>
+
+
